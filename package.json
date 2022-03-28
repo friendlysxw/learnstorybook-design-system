@@ -1,7 +1,7 @@
 {
-  "name": "learnstorybook-design-system",
+  "name": "sxw-learnstorybook-design-system",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
@@ -16,12 +16,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "build-storybook-docs": "build-storybook -s public --docs"
+    "build-storybook-docs": "build-storybook -s public --docs",
+    "auto": "auto"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
     "@storybook/addon-a11y": "^6.4.19",
     "@storybook/addon-actions": "^6.4.19",
     "@storybook/addon-docs": "^6.4.19",
@@ -66,8 +68,20 @@
     "@storybook/preset-create-react-app": "^4.1.0",
     "@storybook/react": "^6.4.19",
     "@storybook/testing-library": "^0.0.9",
+    "auto": "^10.36.5",
     "chromatic": "^6.5.3",
+    "cross-env": "^7.0.3",
     "prettier": "^2.6.1",
     "webpack": "^5.70.0"
-  }
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "description": "Learn Storybook design system",
+  "main": "dist/index.js",
+  "repository": "git@github.com:friendlysxw/learnstorybook-design-system.git",
+  "author": "shixuewen <friendlysxw@163.com>",
+  "license": "MIT"
 }
