@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-03-28 18:37:53
- * @LastEditTime: 2022-03-28 23:50:23
+ * @LastEditTime: 2022-03-28 23:59:35
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \learnstorybook-design-system\src\Avatar.stories.js
@@ -62,7 +62,9 @@ export const sizes = () => (
     />
   </div>
 );
-
+sizes.story = {
+  parameters: { docs: { storyDescription: "4 sizes are supported." } },
+};
 export const initials = () => (
   <div>
     <Avatar username="Tom Coleman" />
