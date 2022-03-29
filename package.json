@@ -1,6 +1,6 @@
 {
   "name": "sxw-learnstorybook-design-system",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "description": "Learn Storybook design system",
   "main": "dist/index.js",
