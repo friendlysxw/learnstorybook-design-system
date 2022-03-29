@@ -1,3 +1,16 @@
+# v1.0.1 (Tue Mar 29 2022)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of github.com:friendlysxw/learnstorybook-design-system ([@friendlysxw](https://github.com/friendlysxw))
+- fix: build script ([@friendlysxw](https://github.com/friendlysxw))
+
+#### Authors: 1
+
+- shixuewen ([@friendlysxw](https://github.com/friendlysxw))
+
+---
+
 # v1.0.0 (Tue Mar 29 2022)
 
 #### 💥 Breaking Change
