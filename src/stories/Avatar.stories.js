@@ -1,14 +1,14 @@
 /*
  * @Author: your name
  * @Date: 2022-03-28 18:37:53
- * @LastEditTime: 2022-03-29 11:45:18
+ * @LastEditTime: 2022-03-29 16:00:45
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \learnstorybook-design-system\src\Avatar.stories.js
  */
 import React from "react";
 import { withKnobs, select, boolean } from "@storybook/addon-knobs";
-import { Avatar } from "./Avatar";
+import { Avatar } from "../components/Avatar";
 
 export default {
   title: "Design System|Avatar",
