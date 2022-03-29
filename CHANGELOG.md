@@ -1,3 +1,15 @@
+# v1.0.0 (Tue Mar 29 2022)
+
+#### 💥 Breaking Change
+
+- fix: button border blue [#3](https://github.com/friendlysxw/learnstorybook-design-system/pull/3) ([@friendlysxw](https://github.com/friendlysxw))
+
+#### Authors: 1
+
+- shixuewen ([@friendlysxw](https://github.com/friendlysxw))
+
+---
+
 # v0.1.2 (Tue Mar 29 2022)
 
 #### ⚠️ Pushed to `master`
